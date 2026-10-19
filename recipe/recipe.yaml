@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: open62541pp
-  version: "0.21.3"
+  version: "0.22.0"
 
 package:
   name: ${{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/open62541pp/open62541pp/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: f841fd85f61976d624099ac82e7c12c07a1d0316b96d81be18ecf53433a1e041
+  sha256: 5ce8acccbccb95c980d93d6cba8029d3e685faf36eb0266cc7c80ba934f79a75
 
 build:
   number: 0
